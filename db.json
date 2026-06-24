@@ -1,208 +1,200 @@
 {
-  "oauth-token": [
-    {
-      "id": 1,
-      "access_token": "APP_USR-MOCK-TOKEN",
-      "token_type": "bearer",
-      "expires_in": 21600,
-      "scope": "read",
-      "user_id": 123456789,
-      "refresh_token": "TG-MOCK-REFRESH-TOKEN"
-    }
-  ],
-
-  "leads-buyers": [
-    {
-      "id": "987654321",
-      "item_id": "MLB123456789",
-      "name": "João da Silva",
-      "email": "joao@example.com",
-      "phone": "+5511999999999"
-    },
-    {
-      "id": "987654322",
-      "item_id": "MLB123456790",
-      "name": "Maria Oliveira",
-      "email": "maria@example.com",
-      "phone": "+5511988888888"
-    }
-  ],
-
-  "leads": [
-    {
-      "id": "987654321",
-      "item_id": "MLB123456789",
-      "name": "João da Silva",
-      "email": "joao@example.com",
-      "phone": "+5511999999999",
-      "created_at": "2026-06-24T14:30:00.000Z",
-      "status": "new"
-    },
-    {
-      "id": "987654322",
-      "item_id": "MLB123456790",
-      "name": "Maria Oliveira",
-      "email": "maria@example.com",
-      "phone": "+5511988888888",
-      "created_at": "2026-06-24T15:10:00.000Z",
-      "status": "contacted"
-    }
-  ],
-
-  "questions-search": [
-    {
-      "id": "876543210",
-      "text": "O veículo aceita financiamento?",
-      "item_id": "MLB123456789",
-      "date_created": "2026-06-24T10:00:00.000Z"
-    },
-    {
-      "id": "876543211",
-      "text": "Possui laudo cautelar?",
-      "item_id": "MLB123456790",
-      "date_created": "2026-06-24T11:30:00.000Z"
-    }
-  ],
-
-  "questions": [
-    {
-      "id": "876543210",
-      "text": "O veículo aceita financiamento?",
-      "item_id": "MLB123456789",
-      "date_created": "2026-06-24T10:00:00.000Z",
-      "answer": {
-        "text": "Sim, trabalhamos com todos os bancos."
-      }
-    },
-    {
-      "id": "876543211",
-      "text": "Possui laudo cautelar?",
-      "item_id": "MLB123456790",
-      "date_created": "2026-06-24T11:30:00.000Z",
-      "answer": null
-    }
-  ],
-
-  "items": [
-    {
-      "id": "MLB123456789",
-      "title": "Honda Civic EXL 2022 CVT",
-      "price": 125000,
-      "category_id": "MLB1747",
-      "attributes": [
+    "oauth-token": [
         {
-          "id": "BRAND",
-          "value_name": "Honda"
-        },
-        {
-          "id": "MODEL",
-          "value_name": "Civic"
-        },
-        {
-          "id": "VEHICLE_YEAR",
-          "value_name": "2022"
-        },
-        {
-          "id": "KILOMETERS",
-          "value_name": "18000"
-        },
-        {
-          "id": "FUEL_TYPE",
-          "value_name": "Flex"
-        },
-        {
-          "id": "TRANSMISSION",
-          "value_name": "Automático"
+            "id": 1,
+            "access_token": "APP_USR-MOCK-TOKEN",
+            "token_type": "bearer",
+            "expires_in": 21600,
+            "scope": "read",
+            "user_id": 123456789,
+            "refresh_token": "TG-MOCK-REFRESH-TOKEN"
         }
-      ],
-      "seller_address": {
-        "city": {
-          "name": "São Paulo"
+    ],
+    "leads-buyers": [
+        {
+            "id": "987654321",
+            "item_id": "MLB123456789",
+            "name": "João da Silva",
+            "email": "joao@example.com",
+            "phone": "+5511999999999"
+        },
+        {
+            "id": "987654322",
+            "item_id": "MLB123456790",
+            "name": "Maria Oliveira",
+            "email": "maria@example.com",
+            "phone": "+5511988888888"
         }
-      }
-    },
-    {
-      "id": "MLB123456790",
-      "title": "Toyota Corolla XEi 2023",
-      "price": 139900,
-      "category_id": "MLB1747",
-      "attributes": [
+    ],
+    "leads": [
         {
-          "id": "BRAND",
-          "value_name": "Toyota"
+            "id": "987654321",
+            "item_id": "MLB123456789",
+            "name": "João da Silva",
+            "email": "joao@example.com",
+            "phone": "+5511999999999",
+            "created_at": "2026-06-24T14:30:00.000Z",
+            "status": "new"
         },
         {
-          "id": "MODEL",
-          "value_name": "Corolla"
-        },
-        {
-          "id": "VEHICLE_YEAR",
-          "value_name": "2023"
-        },
-        {
-          "id": "KILOMETERS",
-          "value_name": "9000"
-        },
-        {
-          "id": "FUEL_TYPE",
-          "value_name": "Flex"
-        },
-        {
-          "id": "TRANSMISSION",
-          "value_name": "CVT"
+            "id": "987654322",
+            "item_id": "MLB123456790",
+            "name": "Maria Oliveira",
+            "email": "maria@example.com",
+            "phone": "+5511988888888",
+            "created_at": "2026-06-24T15:10:00.000Z",
+            "status": "contacted"
         }
-      ],
-      "seller_address": {
-        "city": {
-          "name": "Campinas"
+    ],
+    "questions-search": [
+        {
+            "id": "876543210",
+            "text": "O veículo aceita financiamento?",
+            "item_id": "MLB123456789",
+            "date_created": "2026-06-24T10:00:00.000Z"
+        },
+        {
+            "id": "876543211",
+            "text": "Possui laudo cautelar?",
+            "item_id": "MLB123456790",
+            "date_created": "2026-06-24T11:30:00.000Z"
         }
-      }
-    }
-  ],
-
-  "item-descriptions": [
-    {
-      "id": "MLB123456789",
-      "plain_text": "Honda Civic EXL 2022, único dono, revisões em concessionária, IPVA pago."
-    },
-    {
-      "id": "MLB123456790",
-      "plain_text": "Toyota Corolla XEi 2023, garantia de fábrica, revisões em dia."
-    }
-  ],
-
-  "categories": [
-    {
-      "id": "MLB1747",
-      "name": "Carros e Caminhonetes"
-    }
-  ],
-
-  "category-attributes": [
-    {
-      "id": "MLB1747",
-      "attributes": [
+    ],
+    "questions": [
         {
-          "id": "BRAND",
-          "value_name": "Honda"
+            "id": "876543210",
+            "text": "O veículo aceita financiamento?",
+            "item_id": "MLB123456789",
+            "date_created": "2026-06-24T10:00:00.000Z",
+            "answer": {
+                "text": "Sim, trabalhamos com todos os bancos."
+            }
         },
         {
-          "id": "MODEL",
-          "value_name": "Civic"
-        },
-        {
-          "id": "VEHICLE_YEAR",
-          "value_name": "2022"
-        },
-        {
-          "id": "KILOMETERS",
-          "value_name": "18000"
-        },
-        {
-          "id": "FUEL_TYPE",
-          "value_name": "Flex"
+            "id": "876543211",
+            "text": "Possui laudo cautelar?",
+            "item_id": "MLB123456790",
+            "date_created": "2026-06-24T11:30:00.000Z",
+            "answer": null
         }
-      ]
-    }
-  ]
+    ],
+    "items": [
+        {
+            "id": "MLB123456789",
+            "title": "Honda Civic EXL 2022 CVT",
+            "price": 125000,
+            "category_id": "MLB1747",
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "value_name": "Honda"
+                },
+                {
+                    "id": "MODEL",
+                    "value_name": "Civic"
+                },
+                {
+                    "id": "VEHICLE_YEAR",
+                    "value_name": "2022"
+                },
+                {
+                    "id": "KILOMETERS",
+                    "value_name": "18000"
+                },
+                {
+                    "id": "FUEL_TYPE",
+                    "value_name": "Flex"
+                },
+                {
+                    "id": "TRANSMISSION",
+                    "value_name": "Automático"
+                }
+            ],
+            "seller_address": {
+                "city": {
+                    "name": "São Paulo"
+                }
+            }
+        },
+        {
+            "id": "MLB123456790",
+            "title": "Toyota Corolla XEi 2023",
+            "price": 139900,
+            "category_id": "MLB1747",
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "value_name": "Toyota"
+                },
+                {
+                    "id": "MODEL",
+                    "value_name": "Corolla"
+                },
+                {
+                    "id": "VEHICLE_YEAR",
+                    "value_name": "2023"
+                },
+                {
+                    "id": "KILOMETERS",
+                    "value_name": "9000"
+                },
+                {
+                    "id": "FUEL_TYPE",
+                    "value_name": "Flex"
+                },
+                {
+                    "id": "TRANSMISSION",
+                    "value_name": "CVT"
+                }
+            ],
+            "seller_address": {
+                "city": {
+                    "name": "Campinas"
+                }
+            }
+        }
+    ],
+    "item-descriptions": [
+        {
+            "id": "MLB123456789",
+            "plain_text": "Honda Civic EXL 2022, único dono, revisões em concessionária, IPVA pago."
+        },
+        {
+            "id": "MLB123456790",
+            "plain_text": "Toyota Corolla XEi 2023, garantia de fábrica, revisões em dia."
+        }
+    ],
+    "categories": [
+        {
+            "id": "MLB1747",
+            "name": "Carros e Caminhonetes"
+        }
+    ],
+    "category-attributes": [
+        {
+            "id": "MLB1747",
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "value_name": "Honda"
+                },
+                {
+                    "id": "MODEL",
+                    "value_name": "Civic"
+                },
+                {
+                    "id": "VEHICLE_YEAR",
+                    "value_name": "2022"
+                },
+                {
+                    "id": "KILOMETERS",
+                    "value_name": "18000"
+                },
+                {
+                    "id": "FUEL_TYPE",
+                    "value_name": "Flex"
+                }
+            ]
+        }
+    ]
 }

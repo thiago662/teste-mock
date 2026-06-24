@@ -1,0 +1,20 @@
+[
+    {
+        "id": "987654321",
+        "item_id": "MLB123456789",
+        "name": "João da Silva",
+        "email": "joao@example.com",
+        "phone": "+5511999999999",
+        "created_at": "2026-06-24T14:30:00.000Z",
+        "status": "new"
+    },
+    {
+        "id": "987654322",
+        "item_id": "MLB123456790",
+        "name": "Maria Oliveira",
+        "email": "maria@example.com",
+        "phone": "+5511988888888",
+        "created_at": "2026-06-24T15:10:00.000Z",
+        "status": "contacted"
+    }
+]
