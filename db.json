@@ -1,0 +1,24 @@
+{
+  "leads": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "cpf": "12345678901",
+      "telefone": "11999999999"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Souza",
+      "cpf": "98765432100",
+      "telefone": "11888888888"
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": 1,
+      "leadId": 1,
+      "data": "2026-06-25",
+      "status": "Agendado"
+    }
+  ]
+}
